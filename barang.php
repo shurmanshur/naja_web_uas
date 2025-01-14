@@ -17,8 +17,6 @@ if(isset($_POST['addKategoriBtn']) == true){
         echo "<script>alert('Tambah Kategori berhasil ! ')
         document.location.href = 'kategori.php';
         </script>";
-        // $_SESSION['username'] = $_POST['username'];
-        // $_SESSION['password'] = $_POST['password'];
     }else{
         echo "<script>alert('Tambah Kategori gagal ! ')
         document.location.href = 'kategori.php';
@@ -31,8 +29,6 @@ if(isset($_POST['updateKategoriBtn']) == true){
         echo "<script>alert('Update Kategori berhasil ! ')
         document.location.href = 'kategori.php';
         </script>";
-        // $_SESSION['username'] = $_POST['username'];
-        // $_SESSION['password'] = $_POST['password'];
     }else{
         echo "<script>alert('Update Kategori gagal ! ')
         document.location.href = 'kategori.php';
